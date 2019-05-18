@@ -11,41 +11,66 @@ body {
 
 header,
 footer{
+  max-height: 32px;
   width: 100%;
-  padding: 0px 24px;
 }
 
-section{
+section {
+  height: auto;
   width: 100%;
-  padding: 32px 24px;
 }
+
+/* Flexbox Styles */
 
 .wide {
+  height: 100%;
   width: 60%;
 }
 
 .narrow {
+  height: 100%;
   width: 40%;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  max-height: 100%;
+}
+
+.column {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 /* Header Styles */
 
 header {
-
+  height: 64px;
+  background-color: steelblue;
 }
 
 /* Banner Styles */
 
 .banner {
-
+  position: relative;
+  top: 32px;
+  background-color: white;
 }
 
-.banner .image {
-
+.banner .image img {
+  max-width: 93.75%;
+  height: auto;
+  margin: 4.167% 3.125%;
 }
 
 .banner .engage {
-
+  background-color: steelblue;
 }
 
 /* Spotlight Styles */
@@ -55,21 +80,21 @@ header {
 }
 
 .spotlight .image {
-
+  background-color: white;
 }
 
 .spotlight .highlight {
-
+  background-color: lightgray;
 }
 
 .spotlight .highlight .card {
-
+  background-color: steelblue;
 }
 
 /* Programs Styles */
 
 .programs{
-
+  background-color: white;
 }
 
 .programs .title {
@@ -81,7 +106,7 @@ header {
 }
 
 .programs .container .program {
-  
+
 }
 
 /* Thesis Styles */
