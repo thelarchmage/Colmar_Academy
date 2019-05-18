@@ -1,20 +1,109 @@
 /* Universal Styles */
 
-html{
-
+html {
+  font-family: serif;
+  font-size: 14px;
 }
 
-body{
+body {
   background-color: #d2d2d2
 }
 
+header,
+footer{
+  width: 100%;
+  padding: 0px 24px;
+}
+
+section{
+  width: 100%;
+  padding: 32px 24px;
+}
+
+.wide {
+  width: 60%;
+}
+
+.narrow {
+  width: 40%;
+}
 
 /* Header Styles */
 
+header {
+
+}
+
 /* Banner Styles */
 
-/* Shoecase Styles */
+.banner {
+
+}
+
+.banner .image {
+
+}
+
+.banner .engage {
+
+}
+
+/* Spotlight Styles */
+
+.spotlight {
+
+}
+
+.spotlight .image {
+
+}
+
+.spotlight .highlight {
+
+}
+
+.spotlight .highlight .card {
+
+}
+
+/* Programs Styles */
+
+.programs{
+
+}
+
+.programs .title {
+
+}
+
+.programs .container {
+
+}
+
+.programs .container .program {
+  
+}
 
 /* Thesis Styles */
 
+.thesis {
+
+}
+
+.thesis .video {
+
+}
+
+.thesis .highlight {
+
+}
+
+.thesis .highlight .card {
+
+}
+
 /* Footer Styles */
+
+footer{
+
+}
