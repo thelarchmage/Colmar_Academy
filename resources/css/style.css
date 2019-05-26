@@ -9,7 +9,6 @@ body {
   background-color: #d2d2d2
 }
 
-
 footer{
   height: 96px;
   width: 100%;
@@ -148,15 +147,24 @@ header .right img {
 /* Spotlight Styles */
 
 .spotlight {
-
+  position: relative;
+  background-color: lightgrey;
 }
 
-.spotlight .image {
-  background-color: white;
+.spotlight .image img {
+  max-width: 93.75%;
+  height: auto;
+  margin: 4.167% 3.125%;
+}
+
+.spotlight .caption {
+  max-width: 93.75%;
+  height: auto;
+  margin: 4.167% 3.125%;
 }
 
 .spotlight .highlight {
-  background-color: lightgray;
+  background-color: gray;
 }
 
 .spotlight .highlight .card {
@@ -202,5 +210,5 @@ header .right img {
 /* Footer Styles */
 
 footer{
-
+  background-color: white;
 }
