@@ -160,7 +160,32 @@ header .right img {
 .spotlight .caption {
   max-width: 93.75%;
   height: auto;
-  margin: 4.167% 3.125%;
+  margin: 0 3.125%;
+}
+
+.spotlight .caption h2 {
+  display: flex;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2.6rem;
+  line-height: 1.2;
+  margin-bottom: 1.4rem;
+}
+
+.spotlight .caption h4 {
+  display: flex;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  margin: 1.4rem 0;
+}
+
+.spotlight .caption h6 {
+  display: flex;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin: 1.4rem 0 4.167%;
 }
 
 .spotlight .highlight {
