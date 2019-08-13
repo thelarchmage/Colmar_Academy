@@ -201,8 +201,12 @@ header .right img {
   min-height: 150px;
   margin-left: 3.162%;
   border: 1px solid black;
+  border-right: none;
 }
 .spotlight .highlight .card .image{
+  background-color: gray;
+  width: 35%;
+  border: 1px solid black;
 }
 
 /* Programs Styles */
